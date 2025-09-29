@@ -22,7 +22,7 @@ h2{
     text-transform: capitalize;
     letter-spacing: 3px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 2em;
 }
 .dark h2{
     color:#71a6c8;
@@ -30,9 +30,13 @@ h2{
 p{
     text-align: center;
     padding: 5px;
-    margin-left: 500px;
-    margin-right: 500px;
 }
 footer{
     text-align: center;
+}
+#content{
+    max-width: 600px;
+    border: #000 1px solid;
+    margin: 3em auto;
+    padding: 3em;
 }
