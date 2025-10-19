@@ -44,7 +44,7 @@ header{
 }
 
 a:link, a:visited {
-  color: var(--accent-color);
+  color: var(--text-light);
 }
 main{
     background-color: var(--text-light);
