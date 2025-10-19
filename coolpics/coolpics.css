@@ -17,6 +17,7 @@ body {
 nav{
     display: flex;
     flex-direction: column;
+    color: var(--text-light);
 }
 
 img{
