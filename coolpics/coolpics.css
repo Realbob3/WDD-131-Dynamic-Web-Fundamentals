@@ -46,6 +46,9 @@ header{
 
 a:link, a:visited {
   color: var(--text-light);
+  display: block;
+  padding: 10px 15px;
+  min-height: 44px;
 }
 main{
     background-color: var(--text-light);
@@ -71,6 +74,13 @@ footer{
     position: absolute;
     top: 15px;
     right: 15px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 700px){
@@ -93,5 +103,11 @@ footer{
     }
     .menu-button{
         display: none;
+        min-width: 44px;
+        min-height: 44px;
+        padding: 8px; 
+        border: none;
+        background-color: var(--secondary-color);
+        color: var(--text-dark);
     }
 }
