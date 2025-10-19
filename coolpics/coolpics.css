@@ -18,7 +18,7 @@ body {
     min-height: 44px;
     padding: 10px; 
     border: none;
-    background-color: var(--accent-color);
+    background-color: var(--text-dark);
     color: var(--text-light);
     font-size: 1em;
 }
