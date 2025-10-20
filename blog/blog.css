@@ -1,0 +1,148 @@
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0.15rem;
+    border-top: 3px solid #e350cb;
+    border-bottom: 3px solid #e350cb;
+    box-sizing: border-box;
+}
+.content a{
+    position: absolute;
+    top: -40px;
+    text-align: left;
+    color: rgb(206, 73, 73);
+    background-color: #f15d82;
+}
+.content a:focus{
+    top: 120px;
+    left: 40px;
+}
+header{
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 50px;
+    color: darkolivegreen;
+}
+
+h2{
+    color: #be19ca;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav a{
+    color: #595ee8;
+    margin-right: 25px;
+    font-size: large;
+}
+
+li{
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+a{
+    color: #595ee8;
+}
+
+.date{
+    font-size: 22px;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 30px;
+}
+.genre{
+    font-size: 18px;
+}
+
+#blog-posts-container{
+    flex: 4;
+}
+
+.left-section{
+    flex-basis: 120px;
+    flex-shrink: 0;
+    padding: 10px;
+    border-right: 3px solid #e350cb;
+    text-align: right;
+    flex: 1;
+}
+
+.middle-section{
+    flex: 2;
+    padding: 10px;
+    justify-content: center;
+}
+
+.middle-section img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    max-width: 75%;
+    max-height: 75%
+}
+
+.right-section{
+    flex: 1;
+    padding: 10px;
+    border: 3px solid #e350cb;
+    margin-right: 20px;
+}
+
+@media (max-width: 700px){
+    main{
+        flex-direction: column;
+    }
+    nav{
+        justify-content: center;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    li{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .left-section{
+        border-right: none;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .middle-section{
+        border-bottom: 3px solid #e350cb;
+    }
+
+    .right-section{
+        margin-right: 0;
+    }
+
+    
+
+    
+}
