@@ -1,3 +1,13 @@
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .columns div {
+    width: 48%;
+  }
+  
   div,
   form,
   input,
@@ -11,7 +21,6 @@
     font-size: 16px;
     line-height: 24px;
   }* 
-
 
 {
     box-sizing: border-box;
@@ -87,17 +96,8 @@
     color: red;
   }
 
-  .columns {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .columns div {
-    width: 48%;
-  }
+  
 
-  /* Style checkbox and radio. To do this we have to hide the defaults then we create our own */
   input[type="radio"] {
     display: none;
   }
@@ -142,7 +142,6 @@
   input[type="radio"]:checked + label:after {
     opacity: 1;
   }
-  /* end style checkbox and radio */
   .submit-button {
     margin-top: 10px;
     text-align: center;
